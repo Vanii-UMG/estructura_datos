@@ -31,6 +31,7 @@ public void insertar(int i, Object dato){
         }
     }
 
+    /* Pruebas  para recorrer en InOrden*/
     public void recorrer(Nodo n){
         if (n !=null){
             recorrer(n.izquierda);
