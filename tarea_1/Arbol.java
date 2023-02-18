@@ -35,8 +35,17 @@ public void insertar(int i, Object dato){
     public void recorrer(Nodo n){
         if (n !=null){
             recorrer(n.izquierda);
-            System.out.println("Indice "+n.llave+" dato"+n.contenido);
+            System.out.println("Indice "+n.llave+" dato: "+n.contenido);
            recorrer(n.derecha);
+        }
+    }
+    
+    /* Se realizan pruebas para recorrer en PostOrden */
+    public void recorrerPostOrden(Nodo n){
+        if(n != null){
+            System.out.println("Indice "+ n.llave+" dato: " +n.contenido);
+            recorrer(n.iquierda);
+            recorrer(n.derecha);
         }
     }
     
