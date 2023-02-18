@@ -1,4 +1,4 @@
-    piblic class Nodo{
+    public class Nodo{
        public Nodo padre;
         public Nodo derecha;
         public Nodo izquierda;
